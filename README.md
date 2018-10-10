@@ -14,7 +14,7 @@ This repo is for staging generated contributor guides of OSS projects. The folde
 
 The README.md should have a link to the original contributor docs. generated.md is generated from this command: `lingo run docs --template template.md --output generated.md`. The contents of generated.md should match that of the original as closely as possible.
 
-Templates markdown with [text/template](https://golang.org/pkg/text/template/) variables. Below is the default template:
+Template is markdown with [text/template](https://golang.org/pkg/text/template/) variables. Below is the default template:
 
 ```
 # Contributor Guide
