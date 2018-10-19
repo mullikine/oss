@@ -89,11 +89,10 @@ To get a nice HTML report on the tests:
 ```make test-report-html```
 
 ### Writing tests
-
 {{range .}}
-#### {{.Name}}
+#### {{.title}}
 
-{{.Doc}}
+{{.body}}
 {{end}}
 
 ### What is an unencapsulated test?
